@@ -10,9 +10,10 @@ public class TestNow {
 	public void test1()
 	{
 		System.out.println("Fetching the url");
-		Property_Utility pu = new Property_Utility("./src/test/resources/cred.properties");
-		String url = pu.getProperty("url");
+//		Property_Utility pu = new Property_Utility("./src/test/resources/cred.properties");
+		String url = System.getProperty("url");
 		System.out.println(url);
+		System.out.println("Welcome");
 	}
 
 }
