@@ -14,6 +14,7 @@ public class TestNow {
 		String url = System.getProperty("url");
 		System.out.println(url);
 		System.out.println("Welcome");
+		System.out.println("Editing on Github now.");
 	}
 
 }
